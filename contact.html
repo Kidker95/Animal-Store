@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style-contact.css">
+</head>
+<body>
+    <h1>חנות החיות המגניבה בארץ!</h1>
+    <hr>
+    <div class="links">
+        <a href="index.html">דף הבית</a>
+        <a href="animals.html">חיות</a>
+        <a href="contact.html">צור קשר</a>
+    </div>
+    <h2>צור קשר</h2>
+    <form action="save.html" method="get">
+        <table>
+            <tr>
+                <td>שם פרטי:</td>
+                <td><input type="text" name="first_name" required></td>
+            </tr>
+            <tr>
+                <td>שם משפחה:</td>
+                <td><input type="text" name="last_name" required></td>
+            </tr>
+            <tr>
+                <td>מין:</td>
+                <td>
+                    <input type="radio" name="gender" value="male" required> זכר
+                    <input type="radio" name="gender" value="female"> נקבה
+                </td>
+            </tr>
+            <tr>
+                <td>עיר:</td>
+                <td>
+                    <select name="city" required>
+                        <option value="">בחר עיר...</option>
+                        <option value="tel_aviv">תל אביב</option>
+                        <option value="jerusalem">ירושלים</option>
+                        <option value="haifa">חיפה</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>הודעה:</td>
+                <td><textarea name="message" required></textarea></td>
+            </tr>
+        </table>
+        <input type="submit" value="שלח">
+        <input type="reset" value="נקה">
+    </form>
+    <br>
+    <footer>
+        כל הזכויות שמורות ©
+    </footer>
+</body>
+</html>

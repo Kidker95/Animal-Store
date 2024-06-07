@@ -1,0 +1,17 @@
+body{
+    background-color: teal;
+}
+.links{
+    display: flex;
+    justify-content: space-around;
+    }
+
+h1, h3, footer{
+    text-align: center;
+    direction: rtl;
+}
+footer{
+    font-weight: bold;
+}
+
+
